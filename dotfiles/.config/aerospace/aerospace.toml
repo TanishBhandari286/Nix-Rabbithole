@@ -114,6 +114,7 @@ alt-w = 'workspace W'
 alt-a = 'workspace A'
 alt-i = 'workspace I'
 alt-v = 'workspace V'
+alt-o = 'workspace O'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
@@ -191,3 +192,7 @@ run = "move-node-to-workspace I"
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
 run = "move-node-to-workspace V"
+
+[[on-window-detected]]
+if.app-id = 'md.obsidian'
+run = 'move-node-to-workspace O'
