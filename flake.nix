@@ -38,6 +38,8 @@
       system.stateVersion = 4;
       nixpkgs.hostPlatform = "aarch64-darwin";
       security.pam.enableSudoTouchIdAuth = true;
+      programs.neovim.enable = true;
+      programs.neovim.defaultEditor = true;
 
       users.users.tanish.home = "/Users/tanish";
       home-manager.backupFileExtension = "backup";
