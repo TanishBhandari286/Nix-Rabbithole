@@ -29,6 +29,7 @@
         pkgs.portal
         pkgs.sops
         pkgs.home-manager
+        pkgs.neofetch
       ];
 
       services.nix-daemon.enable = true;
@@ -73,7 +74,6 @@
         "aldente"
         "rectangle"
         "chatgpt"
-        "raycast"
         "tailscale"
         "iina"
         "the-unarchiver"
