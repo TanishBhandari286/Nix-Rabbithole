@@ -61,6 +61,7 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias batfzf='fzf --preview='bat {}''
 alias nvimfzf='nvim $(fzf --preview='bat {}')'
+alias upgrade='brew update && brew upgrade'
 
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
