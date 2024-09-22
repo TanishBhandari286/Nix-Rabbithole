@@ -88,6 +88,7 @@
         "spacedrive"
         "font-jetbrains-mono"
         "aerospace"
+        "zed"
       ];
       homebrew.taps = [
         "FelixKratz/formulae"
