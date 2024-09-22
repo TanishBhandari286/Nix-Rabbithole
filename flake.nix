@@ -62,7 +62,7 @@
         "telegram"
         "whatsapp"
         "firefox"
-        "brave-browser"
+        "brave-browser@nightly"
         "discord"
         "visual-studio-code"
         "intellij-idea"
@@ -89,6 +89,7 @@
         "font-jetbrains-mono"
         "aerospace"
         "zed"
+        "openvpn-connect"
       ];
       homebrew.taps = [
         "FelixKratz/formulae"
