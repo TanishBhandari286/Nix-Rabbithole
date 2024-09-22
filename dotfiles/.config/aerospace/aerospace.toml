@@ -171,10 +171,6 @@ if.app-id = 'com.github.wez.wezterm'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
-if.app-id = 'com.brave.browser'
-run = "move-node-to-workspace A"
-
-[[on-window-detected]]
 if.app-id = 'com.bitwarden.desktop'
 run = "move-node-to-workspace P"
 
@@ -187,7 +183,7 @@ if.app-id = 'net.whatsapp.Whatsapp'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.firefox'
+if.app-id = 'com.brave.Browser.nightly'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
