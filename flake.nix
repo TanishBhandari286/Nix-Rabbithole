@@ -109,6 +109,7 @@
         "tmux"
         "yt-dlp"
         "youtube-dl"
+        "nmap"
         "rclone"
         "ranger"
         "yazi"
