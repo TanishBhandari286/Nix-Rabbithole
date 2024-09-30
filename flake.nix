@@ -90,6 +90,7 @@
         "aerospace"
         "zed"
         "openvpn-connect"
+        "karabiner-elements"
       ];
       homebrew.taps = [
         "FelixKratz/formulae"
