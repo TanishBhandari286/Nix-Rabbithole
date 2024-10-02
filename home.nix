@@ -25,10 +25,6 @@
   source = ./dotfiles/.config/wezterm;
   recursive = true;
   };
-  home.file.".config/sketchybar" = {
-  source = ./dotfiles/.config/sketchybar;
-  recursive = true;
-  };
   home.file.".config/nvim" = {
   source = ./dotfiles/.config/nvim;
   recursive = true;
