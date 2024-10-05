@@ -58,10 +58,12 @@
       homebrew.enable = true;
       homebrew.casks = [
         "google-chrome"
+        "font-meslo-lg-nerd-font"
         "obsidian"
         "telegram"
         "whatsapp"
         "firefox"
+        "brave-browser"
         "brave-browser@nightly"
         "discord"
         "visual-studio-code"
@@ -110,6 +112,8 @@
         "tmux"
         "yt-dlp"
         "youtube-dl"
+        "switchaudio-osx"
+        "gh"
         "nmap"
         "rclone"
         "ranger"

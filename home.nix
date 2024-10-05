@@ -25,10 +25,6 @@
   source = ./dotfiles/.config/wezterm;
   recursive = true;
   };
-  home.file.".config/nvim" = {
-  source = ./dotfiles/.config/nvim;
-  recursive = true;
-  };
   # Makes sense for user-specific applications that shouldn't be available system-wide
   home.packages = [
         pkgs.hello
